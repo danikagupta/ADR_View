@@ -46,7 +46,12 @@ def show_record(drug_name):
   kg=drugs_kg[drug_name]
   mt=drugs_mt[drug_name]
   en=drugs_en[drug_name]
-  df=pd.DataFrame({'Actual Side-effects':pd.Series(ac),'Knowledge Graph':pd.Series(kg),'Multi-Task':pd.Series(mt),'Ensemble':pd.Series(en)})
+  df=pd.DataFrame({
+                   'Actual Side-effects':pd.Series(ac),
+                   'Ensemble':pd.Series(en),
+                   'Multi-Task':pd.Series(mt),
+                   'Knowledge Graph':pd.Series(kg),
+                   })
   st.table(df)
 
 
@@ -64,7 +69,7 @@ drugs_mt=get_dict('data/drugs_mt.csv')
 drugs_en=get_dict('data/drugs_en.csv')
 drug_list=drug_smiles.keys()
 
-drug_chosen = st.sidebar.radio('Pick a drug', options=drug_list)
+drug_chosen = st.selectbox('Pick a drug', options=drug_list)
 print(f"Drug chosen is {drug_chosen}")
 d_url=get_video_code(drug_chosen)
 
