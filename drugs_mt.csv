@@ -1,0 +1,11 @@
+drug,SMILES,Hepatobiliary disorders,Metabolism and nutrition disorders,Product issues,Eye disorders,Investigations,Musculoskeletal and connective tissue disorders,Gastrointestinal disorders,Social circumstances,Immune system disorders,Reproductive system and breast disorders,"Neoplasms benign, malignant and unspecified (incl cysts and polyps)",General disorders and administration site conditions,Endocrine disorders,Surgical and medical procedures,Vascular disorders,Blood and lymphatic system disorders,Skin and subcutaneous tissue disorders,"Congenital, familial and genetic disorders",Infections and infestations,"Respiratory, thoracic and mediastinal disorders",Psychiatric disorders,Renal and urinary disorders,"Pregnancy, puerperium and perinatal conditions",Ear and labyrinth disorders,Cardiac disorders,Nervous system disorders,"Injury, poisoning and procedural complications"
+Dopamine,C1=CC(=C(C=C1CCN)O)O,0,1,0,1,1,1,1,0,0,0,0,1,0,0,1,1,1,0,1,1,0,0,0,0,1,1,1
+Midodrine,COC1=CC(=C(C=C1)OC)C(CNC(=O)CN)O,0,1,0,1,1,1,1,0,1,1,0,1,0,0,1,1,1,0,0,1,0,1,0,1,1,1,1
+Sufentanil,CCC(=O)N(C1=CC=CC=C1)C2(CCN(CC2)CCC3=CC=CS3)COC,1,1,0,1,1,1,1,0,1,1,0,1,0,0,1,0,1,0,1,1,1,0,0,1,1,1,1
+Nitazoxanide,CC(=O)OC1=CC=CC=C1C(=O)NC2=NC=C(S2)[N+](=O)[O-],1,1,0,1,1,1,1,1,1,1,0,1,0,0,1,1,1,0,1,1,1,1,0,1,1,1,1
+Apraclonidine,C1CN=C(N1)NC2=C(C=C(C=C2Cl)N)Cl,1,1,0,0,1,1,1,0,1,1,0,1,1,0,1,1,1,0,1,1,1,1,0,1,1,1,1
+Dalfampridine,C1=CN=CC=C1N,0,1,0,1,1,1,1,0,0,0,0,1,0,0,1,1,1,0,1,1,0,0,0,0,1,1,1
+Tetracaine,CCCCNC1=CC=C(C=C1)C(=O)OCCN(C)C,0,0,0,0,1,0,1,0,1,0,0,1,0,0,1,1,1,0,0,1,1,0,0,0,0,1,1
+Iohexol,CC(=O)N(CC(CO)O)C1=C(C(=C(C(=C1I)C(=O)NCC(CO)O)I)C(=O)NCC(CO)O)I,0,1,0,1,1,1,1,0,1,0,0,1,0,1,1,0,1,0,1,1,1,1,0,1,1,1,1
+Tetrofosmin,CCOCCP(CCOCC)CCP(CCOCC)CCOCC,0,0,0,1,1,0,1,0,1,0,0,1,0,0,1,1,1,0,1,1,1,0,0,0,1,1,1
+Lodoxamide,C1=C(C=C(C(=C1NC(=O)C(=O)O)Cl)NC(=O)C(=O)O)C#N,0,0,0,1,0,0,1,0,1,0,0,1,0,0,1,0,1,0,0,1,0,0,0,0,0,1,1
