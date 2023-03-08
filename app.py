@@ -68,6 +68,7 @@ drugs_kg=get_dict('data/drugs_kg.csv')
 drugs_mt=get_dict('data/drugs_mt.csv')
 drugs_en=get_dict('data/drugs_en.csv')
 drug_list=drug_smiles.keys()
+drug_list=['Lodoxamide','Apraclonidine','Iohexol','Nitazoxanide','Dopamine','Midodrine']
 
 drug_chosen = st.selectbox('Pick a drug', options=drug_list)
 print(f"Drug chosen is {drug_chosen}")
