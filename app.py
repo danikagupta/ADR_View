@@ -51,8 +51,8 @@ def show_record(drug_name):
 
 
 def get_video_code(drug_name):
-  #file_ = open("/Users/amitamit/Documents/Code/Python/Streamlit/adr_synopsys2023/iohexol.gif", "rb")
-  file_ = open(f"/Users/amitamit/Documents/Code/Python/Streamlit/adr_synopsys2023/{drug_name}.gif", "rb")
+  #file_ = open(f"/Users/amitamit/Documents/Code/Python/Streamlit/adr_synopsys2023/{drug_name}.gif", "rb")
+  file_ = open(f"./{drug_name}.gif", "rb")
   contents = file_.read()
   data_url = base64.b64encode(contents).decode("utf-8")
   file_.close()
