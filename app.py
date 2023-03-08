@@ -52,16 +52,16 @@ def show_record(drug_name):
 
 def get_video_code(drug_name):
   #file_ = open(f"/Users/amitamit/Documents/Code/Python/Streamlit/adr_synopsys2023/{drug_name}.gif", "rb")
-  file_ = open(f"./{drug_name}.gif", "rb")
+  file_ = open(f"data/{drug_name}.gif", "rb")
   contents = file_.read()
   data_url = base64.b64encode(contents).decode("utf-8")
   file_.close()
   return data_url
 
-drugs_actual=get_dict('drugs_actual.csv')
-drugs_kg=get_dict('drugs_kg.csv')
-drugs_mt=get_dict('drugs_mt.csv')
-drugs_en=get_dict('drugs_en.csv')
+drugs_actual=get_dict('data/drugs_actual.csv')
+drugs_kg=get_dict('data/drugs_kg.csv')
+drugs_mt=get_dict('data/drugs_mt.csv')
+drugs_en=get_dict('data/drugs_en.csv')
 drug_list=drug_smiles.keys()
 
 drug_chosen = st.sidebar.radio('Pick a drug', options=drug_list)
