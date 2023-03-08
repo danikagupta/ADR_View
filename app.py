@@ -76,10 +76,10 @@ d_url=get_video_code(drug_chosen)
 
 with st.container():
   col1,col2=st.columns(2)
-  col1.title(f"{drug_chosen}")
-  col1.header(f"{drug_smiles[drug_chosen]}")
+  st.title(f"{drug_chosen}")
+  st.header(f"{drug_smiles[drug_chosen]}")
 
-  col2.markdown(
+  st.markdown(
     f'<img src="data:image/gif;base64,{d_url}" alt="molecule structure" width=600>',
     unsafe_allow_html=True,
   )
